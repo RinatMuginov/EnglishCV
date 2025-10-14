@@ -36,6 +36,11 @@ function App() {
       </div>
     </div>
     <hr className="divider"/>
+    <div className="MissionStatement">
+      <h2>Mission Statement</h2>
+      <h3>My mission as a developer is to <i>create efficient, user-friendly digital tools</i> that make people's work and learning easier. I believe in <i>continuous improvement, clean code, and the power of technology to connect people and ideas</i>.</h3>
+    </div>
+    <hr className="divider"/>
     <div className="About">
       <h2>Professional Skills</h2>
       <ul>
