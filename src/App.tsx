@@ -5,9 +5,12 @@ import photo1 from './FinanceManager.png';
 
 const downloadCV = () => {
   const link = document.createElement('a');
-  link.href = '/cv.pdf';
-  link.download = 'CV_MuginovRR.pdf'; 
+  link.href = 'https://disk.yandex.ru/i/704iF4rV2SyKbQ'; 
+  link.download = 'CV_eng_MuginovRR.jpg';
+  link.target = '_blank'; 
+  document.body.appendChild(link);
   link.click();
+  document.body.removeChild(link);
 };
 
 function App() {
